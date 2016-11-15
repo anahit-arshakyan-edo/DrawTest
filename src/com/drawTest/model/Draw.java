@@ -52,7 +52,7 @@ public class Draw {
     {
     	if(x>= this.getCanvasWidth() || y>=this.getCanvasHeight())
     		return;
-        if (this.canvas[x][y] == ' ')
+        if (this.canvas[x][y]!= 'X' && this.canvas[x][y]!= '-' && this.canvas[x][y]!= '|' && this.canvas[x][y]!= c)
         {
         	this.canvas[x][y] = c;
              
