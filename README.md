@@ -4,8 +4,11 @@ Draw.java						It is the model file of our draw tool
 DrawRunableController.java		This controller is for implementation
 README.md						This file
 
+II. How to Run
 
-II. Description
+	Open DrawRunableController and press run. In this controller there is a main method.
+
+III. Description
 
 The application is for painting.
 With this application you can draw a canvas, inside of canvas you can draw lines, rectangles and also you can fill with color like bucket filling.
@@ -33,7 +36,7 @@ Here are the commands list:
 	
 	All commands are not case sensitive. 
 	
-III. Test Cases
+IV. Test Cases
 
 	1. Without drawing canvas try to use command L, R or B.
 	2. For commands C, L, R, B enter big numbers bigger than allowed size of integers.
